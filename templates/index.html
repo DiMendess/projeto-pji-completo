@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Integrador</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='imagens/guararema.ico')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='imagens/logoprefeitura.png')}}" alt="Logo Prefeitura">
+        <hr>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Login</a>
+            <a href="#">Log out</a>
+        
+        </nav>
+    </header>
+
+    <h1>Ginasio de esportes Lazaro Germano</h1>
+        <main><img src="{{ url_for('static', filename='imagens/gp_vistalateral.jpeg')}}" alt="Vista Lateral"></main>
+        <br>
+        <p id="intro">Bem-vindo ao site do nosso ginásio! Aqui, você encontrará tudo o que precisa para começar sua jornada rumo à boa forma e ao bem-estar. Nós oferecemos atividades esportivas gratuitas, desde do futsal, vôlei e basquete.
+        Nosso objetivo é ajudá-lo a alcançar seus objetivos fitness de maneira divertida, segura e eficaz. Nós temos uma equipe de profissionais treinados e experientes que estão prontos para ajudá-lo.
+        Além disso, nosso ginásio conta com equipamentos e instalações modernas para que você possa práticar com conforto e conveniência. Venha conhecer nosso espaço e descobrir como podemos ajudá-lo a alcançar uma vida mais saudável</p>   
+        <br>
+        <br>
+        <br>
+    <section>
+        <div class="esportes">
+            <h2>Volei</h2>
+            <img src="{{ url_for('static', filename='imagens/volei_site.jpg')}}" alt="Volei">
+            <p>Pronto para passar a bola e sentir a adrenalina do vôlei? Aqui no nosso ginásio, oferecemos quadras de alta qualidade e profissionais especializados para ajudá-lo. Junte-se a nós e faça parte desse esporte emocionante!</p>
+            <a href="cadastro.php"><button>Cadastre-se</button></a>
+        </div>
+        <div class="esportes">
+                <h2>Futsal</h2>
+                <img src="{{ url_for('static', filename='imagens/futsal_site.jpg')}}" alt="Futsal">
+                <p>Venha jogar futsal com a gente e sinta a emoção desse esporte incrível! Aqui no nosso ginásio, você tem tudo o que precisa para se divertir e se destacar em quadra. Não perca tempo, venha treinar e jogar com a gente!</p>
+                <a href="cadastro.php"><button>Cadastre-se</button><a>
+        </div>
+        <div class="esportes">
+            <h2>Basquete</h2>
+            <img src="{{ url_for('static', filename='imagens/basquete_site.jpg')}}" alt="Basquete">
+            <p>Drible e marque pontos com o basquete! Venha treinar conosco e descubra todo o potencial desse esporte emocionante. Com quadras de primeira qualidade, você terá tudo o que precisa para jogar bem e se divertir muito!</p>
+            <a href="cadastro.php"><button>Cadastre-se</button></a>
+        </div>  
+    </section>
+        <footer>
+	        <p>Projeto Integrador em Computação PJI 110 - Turma 002 - UNIVESP | 2023</p>
+        </footer>
+    
+
+</body>
+</html>
