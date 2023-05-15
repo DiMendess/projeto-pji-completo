@@ -13,28 +13,6 @@ header {
     padding: 5px;
 }
 
-nav {
-    margin-left: 1650px;
-    background-color: #12acee77;
-    padding: 5px;
-    justify-content: center;
-    
-}
-
-nav > a {
-    color: white;
-    position: relative;
-    padding: 6px;
-    text-decoration: none;
-    font-weight: bold;
-
-}
-
-nav > a:hover {
-    background-color: rgba(41, 41, 240, 0.384);
-    color: rgba(0, 128, 0, 0.712);
-}
-
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +25,13 @@ main img {
     display: block;
     
 
+}
+
+.intro {
+    margin: 20px auto;
+    max-width: 1500px;
+    text-align: center;
+    padding: 20px;
 }
 
 section {
