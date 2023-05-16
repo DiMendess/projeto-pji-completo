@@ -1,4 +1,4 @@
-#codigo: UTF-8
+
 from flask import Flask, render_template, request, redirect, url_for
 import mysql.connector
 
@@ -6,12 +6,7 @@ import mysql.connector
 app = Flask(__name__)
 
 
-
-#route -> /index.html
-#funcao -> o que vc quer exibir naquela pagina
-
-
-@app.route("/") #onde coloca  o link para funcionar
+@app.route("/")
 def homepage():
     return render_template("index.html")
 
