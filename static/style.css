@@ -27,11 +27,11 @@ main img {
 
 }
 
-.intro {
-    margin: 20px auto;
-    max-width: 1500px;
+#intro {
+    margin: 20px 250px;
+    font-size: 20px;
     text-align: center;
-    padding: 20px;
+    
 }
 
 section {
