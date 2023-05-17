@@ -96,11 +96,15 @@ button {
     height: 35px;
     bottom: 10px;
     text-align: center;
-    color: red;
-    background-color: white;
+    color: white;
+    background-color: rgba(20, 20, 175, 0.733);
     border-radius: 40px;
+    border-color: rgba(0, 128, 0, 0.774);
     
+}
 
+button:hover {
+    background: linear-gradient(to bottom, rgba(20, 20, 175, 0.733), rgba(0, 128, 0, 0.774));
 }
 
 p {   
