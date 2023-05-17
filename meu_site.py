@@ -42,8 +42,11 @@ def cadastro():
         cnx.commit()
         cursor.close()
         
+        #Mensagem de Confirmacao
+        mensagem = "Seu cadastro foi realizado com sucesso."
+
         # Exibindo conteudo
-        return render_template('/cadastro.php', nome=nome)
+        return render_template('/cadastro.php', nome=nome, mensagem=mensagem)
 
         # Apos envio, carrega a pagina novamente
     return render_template('cadastro.php')

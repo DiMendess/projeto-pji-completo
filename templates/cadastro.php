@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style02.css')}}">
 </head>
 <body>
+    {% if mensagem %}
+        <p class="mensagem">{{ mensagem }}</p>
+    {% endif %}
     <div class="box">
         <form action="cadastro" id="cadastro" method="POST">
             <fieldset>
